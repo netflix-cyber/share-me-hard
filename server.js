@@ -10,16 +10,6 @@ const corsOptions ={
   // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300']
 };
 
-
-
-
-{
-  origin: "*",
-  methods: "GET,HEAD,PUT,OPTION,PATCH,POST,DELETE",
-  preflightContinue: true,
-  optionsSuccessStatus: 204,
-};
-
 // Default configuration looks like
 
 app.options("*", cors());
